@@ -1,4 +1,4 @@
-const baseApi = "/api";
+const baseApi = "http://localhost:4000/api";
 
 const getTasks = async function () {
   const response = await fetch(`${baseApi}/tasks`);
